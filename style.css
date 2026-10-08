@@ -92,3 +92,60 @@ z-index:-2}
 .pricing-note span{color:var(--gold);margin-right:7px}
 @media(max-width:1000px){.pricing-grid{grid-template-columns:repeat(2,1fr)}.pricing-head{grid-template-columns:1fr;gap:20px}}
 @media(max-width:560px){.pricing-grid{grid-template-columns:1fr}.price-card{min-height:300px}.pricing-head{margin-bottom:35px}}
+
+/* Modern Tech Blue — final polish */
+::selection{
+  background:#35d9ff;
+  color:#02080d;
+}
+
+body{
+  background:#02080d;
+}
+
+.hero h1{
+  text-shadow:0 0 45px rgba(53,217,255,.08);
+}
+
+.btn-primary{
+  transition:transform .25s ease,box-shadow .25s ease,background .25s ease;
+}
+
+.btn-primary:hover{
+  transform:translateY(-2px);
+  box-shadow:0 8px 30px rgba(53,217,255,.25);
+}
+
+.btn-ghost{
+  transition:transform .25s ease,border-color .25s ease,background .25s ease;
+}
+
+.btn-ghost:hover{
+  transform:translateY(-2px);
+  border-color:rgba(53,217,255,.45);
+  background:rgba(53,217,255,.05);
+}
+
+.logo span{
+  text-shadow:0 0 18px rgba(53,217,255,.45);
+}
+
+.nav-links a:hover{
+  text-shadow:0 0 14px rgba(53,217,255,.35);
+}
+
+.section-label{
+  color:#5f8996;
+}
+
+.service-card:hover,
+.project-card:hover,
+.price-card:hover{
+  box-shadow:0 20px 70px rgba(0,180,255,.12);
+}
+
+.email-link:hover{
+  color:#35d9ff;
+  border-color:rgba(53,217,255,.45);
+}
+
